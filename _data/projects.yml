@@ -1,0 +1,52 @@
+- name: Clever Remarks
+  image: https://cdn.scyted.tv/website-assets/show-banners/clever-remarks.jpg
+  link: clever-remarks
+  description: 
+- name: Hot Gossip
+  image: https://cdn.scyted.tv/website-assets/show-banners/hot-gossip.jpg
+  link: hot-gossip
+  description: 
+- name: Ink & Ideals
+  image: https://cdn.scyted.tv/website-assets/show-banners/ink-and-ideals.jpg
+  link: ink-and-ideals
+  description: 
+- name: Inside Mind
+  image: https://cdn.scyted.tv/website-assets/show-banners/inside-mind.jpg
+  link: inside-mind
+  description: 
+- name: Landor's Shorts
+  image: https://cdn.scyted.tv/website-assets/show-banners/landors-shorts.jpg
+  link: landors-shorts
+  description: 
+- name: Loyd Does Stupid Shit
+  image: https://cdn.scyted.tv/website-assets/show-banners/loyd-does-stupid-shit.jpg
+  link: loyd-does-stupid-shit
+  description: 
+- name: Loyd Talks About It
+  image: https://cdn.scyted.tv/website-assets/show-banners/loyd-talks-about-it.jpg
+  link: loyd-talks-about-it
+  description: 
+- name: Milo's Life
+  image: https://cdn.scyted.tv/website-assets/show-banners/milos-life.jpg
+  link: milos-life
+  description: 
+- name: ScytedTV Gaming
+  image: https://cdn.scyted.tv/website-assets/show-banners/scytedtv-gaming.jpg
+  link: scytedtv-gaming
+  description: 
+- name: ScytedTV News
+  image: https://cdn.scyted.tv/website-assets/show-banners/scytedtv-news.jpg
+  link: scytedtv-news
+  description: 
+- name: The Universe
+  image: https://cdn.scyted.tv/website-assets/show-banners/the-universe.jpg
+  link: the-universe
+  description: 
+- name: Yeowang's Shorts
+  image: https://cdn.scyted.tv/website-assets/show-banners/yeowangs-shorts.jpg
+  link: yeowangs-shorts 
+  description: 
+- name: YouTube Gameshow
+  image: https://cdn.scyted.tv/website-assets/show-banners/youtube-gameshow.jpg
+  link: youtube-gameshow
+  description: 

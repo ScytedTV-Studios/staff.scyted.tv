@@ -1,0 +1,51 @@
+[
+    {
+        "imageUrl": "https://cdn.scyted.tv/assets/scytedtv/logos/scytedtv.jpg",
+        "title": "ScytedTV Assets",
+        "description": "Download official ScytedTV Assets such as logos, branding images, etc.",
+        "resourceUrl": "scytedtv-assets"
+    },
+    {
+        "imageUrl": "https://cdn.scyted.tv/jujus-better-wynncraft/logo.png",
+        "title": "JuJu's Better Wynncraft",
+        "description": "A Minecraft Modpack for your Wynncraft Essentials and Quality of Life changes.",
+        "resourceUrl": "jujus-better-wynncraft"
+    },
+    {
+        "imageUrl": "https://cdn.scyted.tv/website-assets/resource-portal/logos/levlr.jpg",
+        "title": "Levlr",
+        "description": "A global leveling bot that combines your levels across all the servers Levlr is in.",
+        "resourceUrl": "levlr"
+    },
+    {
+        "imageUrl": "https://cdn.scyted.tv/discord-heart-collectors/heart-collectors.png",
+        "title": "Heart Collectors",
+        "description": "A discord bot for collecting heart emojis. Very simple, but some people love it!",
+        "resourceUrl": "heart-collectors"
+    },
+    {
+        "imageUrl": "https://cdn.scyted.tv/jujus-better-wynncraft/logo-inverted.png",
+        "title": "JBW Archive",
+        "description": "JuJu's Better Wynncraft Archive.",
+        "resourceUrl": "jbw-archive"
+    },
+    {
+        "imageUrl": "https://cdn.scyted.tv/website-assets/resource-portal/logos/pixeldrain.jpg",
+        "title": "Watch & Download PD Videos",
+        "description": "Watch Pixeldrain videos, save your watch position, and bypass download restrictions.",
+        "resourceUrl": "pixeldrain"
+    },
+    {
+        "imageUrl": "https://cdn.scyted.tv/website-assets/resource-portal/logos/audacity.jpg",
+        "title": "Clean Audio in Audacity",
+        "description": "These are some good settings to help clean up microphone audio in Audacity.",
+        "resourceUrl": "audacity"
+    },
+    {
+        "imageUrl": "https://cdn.scyted.tv/website-assets/resource-portal/logos/flipline-studios-flash-archive.png",
+        "title": "Flipline Studios Flash Archive",
+        "description": "This is a complete archive of Flipline Studio's Flash Games that you can download and play.",
+        "resourceUrl": "https://github.com/ScytedTV-Studios/Flipline-Studios-Flash-Archive"
+    }
+  ]
+  

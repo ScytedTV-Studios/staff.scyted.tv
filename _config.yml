@@ -1,0 +1,117 @@
+# WhatATheme
+markdown: kramdown
+
+# URL of the Site
+url: 'https://staff.scyted.tv'
+# Base URL of the Site (i.e., Name of the Repository in which the Site is hosted)
+baseurl: 
+
+version: 24w16u1d
+
+# Title of the Site
+title: ScytedTV Studios
+# Description of the Site
+description: We create the good shit!
+# URL of Image of the Site
+site-image: /assets/images/meta.jpg
+# Keywords of the Site
+site-keywords: ScytedTV, ScytedTV Studios, Entertainment, Media, TV, Movies, YouTube, Content Creation, Content Creating
+# URL for the Image of custom Favicon
+favicon-url: https://cdn.scyted.tv/favicon.ico
+
+# URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
+heroimage: https://cdn.scyted.tv/website-assets/website/hero-image.jpg
+
+# Social Media and Contact
+# If you don't want to use any icon, you can leave them blank.
+email: support@scyted.tv
+facebook_username:
+twitter_username: scytedtv
+instagram_username: scytedtv
+linkedin_username: 
+github_username:  scytedtv-studios
+youtube_channel_id: UCBClJ5Q0LTCRtlEYE1oB6Pg
+reddit_username: /scytedtv
+behance_username: /
+dribbble_username: /
+spotify_username: /31idmdqoug7g2jjio2gr2bp2ehiu
+
+# Google Analytics
+google-analytics: G-54KSRP46MF
+
+# Disqus
+disqus-shortname: scytedtv-studios
+
+# Name of the Author
+author-name: ScytedTV Studios
+# URL for the Image of the Author
+author-image: https://cdn.scyted.tv/assets/scytedtv/logos/scytedtv.jpg
+# 60 Words About the Author
+author-about: ScytedTV Studios takes pride in bringing forward like-minded individuals to create something everyone can be proud of. As a viewer, you can experience our comedic content and explore new ideas that you've never seen before. We are consistently working on something new that is out of our comfort zones, so that we can impress you. Keep an eye out as new content from ScytedTV comes every week!
+# URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
+author-url: https://youtube.com/@ScytedTV
+
+# SASS
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Build settings
+plugins:
+  - jekyll-admin
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Permalink
+permalink: "blog/:title"
+
+# Compress
+compress_html:
+  clippings: all
+
+# Defaults
+defaults:
+
+  -
+    scope:
+      type: 'posts'
+    values:
+      layout: post
+      post-image: ""
+      description: ""
+      tags:
+        - ""
+
+  -
+    scope:
+      type: 'pages'
+    values:
+      layout: page
+  -
+    scope:
+      type: 'schedule'
+    values:
+      layout: page
+  -
+    scope:
+      type: 'show'
+    values:
+      layout: page
+  -
+    scope:
+      type: 'discussion'
+    values:
+      layout: page
+
+# Exclude
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
