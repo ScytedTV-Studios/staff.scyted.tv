@@ -1,0 +1,13 @@
+[
+    {
+      "buttonID": "btn1",
+      "text": "Button 1",
+      "link": "https://example.com/button1"
+    },
+    {
+      "buttonID": "btn2",
+      "text": "Button 2",
+      "link": "https://example.com/button2"
+    }
+  ]
+  

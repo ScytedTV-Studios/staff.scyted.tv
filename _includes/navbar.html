@@ -16,9 +16,14 @@
 
         <div class="navbar-menu has-background-black" id="navbar-menu">
             <div class="navbar-end">
-                <div id="login-container" class="login-container">
-                <script src="https://api.scyted.tv/website/staff-portal/navbar.js"></script>
-                <link rel="stylesheet" href="https://api.scyted.tv/wave-development/dashboard/scytedtv-resources.css">
+                
+                <!-- <a class="navbar-item {% if page.type == 'team' %}is-active{% endif %}"
+                    href="{{site.url}}{{site.baseurl}}/team">Team</a> -->
+                
+                    <div id="login-container" class="login-container navbar-item">
+                <!-- <script src="https://api.scyted.tv/website/staff-portal/navbar.js"></script> -->
+                <script src="assets/js/navbar.js"></script>
+                <!-- <link rel="stylesheet" href="https://api.scyted.tv/wave-development/dashboard/scytedtv-resources.css"> -->
                 </div>
                 </div>
             </div>
