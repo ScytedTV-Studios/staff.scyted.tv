@@ -3,13 +3,13 @@ layout: page
 ---
 
 <style>
-        body {
+        /* body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
             background-color: #f4f4f9;
             color: #333;
-        }
+        } */
         .dashboard-container {
             max-width: 900px;
             margin: auto;
@@ -18,24 +18,24 @@ layout: page
             border-radius: 8px;
             box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
         }
-        .user-info {
+        .box-user-info {
             display: flex;
             align-items: center;
             margin-bottom: 30px;
         }
-        .user-info img {
+        .box-user-info img {
             width: 100px;
             height: 100px;
             border-radius: 50%;
             border: 2px solid #ddd;
             margin-right: 20px;
         }
-        .user-info h1 {
+        .box-user-info h1 {
             margin: 0;
             font-size: 24px;
             color: #444;
         }
-        .user-info p {
+        .box-user-info p {
             color: #666;
         }
         .roles-section {
@@ -96,11 +96,11 @@ layout: page
     color: #FFFFFF;
 }
         @media (max-width: 768px) {
-            .user-info {
+            .box-user-info {
                 flex-direction: column;
                 align-items: flex-start;
             }
-            .user-info img {
+            .box-user-info img {
                 width: 80px;
                 height: 80px;
                 margin-right: 0;
@@ -117,11 +117,11 @@ layout: page
     </style>
 <body>
     <div class="dashboard-container">
-        <div class="user-info">
-            <img id="user-avatar" src="" alt="User Avatar">
+        <div class="box-user-info">
+            <img id="box-user-avatar" src="" alt="User Avatar">
             <div>
-                <h1 id="user-name"></h1>
-                <p id="user-id"></p>
+                <h1 id="box-user-name"></h1>
+                <p id="box-user-id"></p>
             </div>
         </div>
         <div class="roles-section">

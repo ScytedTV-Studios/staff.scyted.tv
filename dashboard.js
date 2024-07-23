@@ -55,10 +55,10 @@ function getTextColor(hex) {
 }
 
 function displayUserInfo(userData) {
-    const userAvatar = document.getElementById('user-avatar');
+    const userAvatar = document.getElementById('box-user-avatar');
     userAvatar.src = userData.avatar ? `https://cdn.discordapp.com/avatars/${userData.id}/${userData.avatar}.png` : 'default-avatar.png';
-    document.getElementById('user-name').innerText = userData.username;
-    document.getElementById('user-id').innerText = `ID: ${userData.id}`;
+    document.getElementById('box-user-name').innerText = userData.username;
+    document.getElementById('box-user-id').innerText = `ID: ${userData.id}`;
 }
 
 function displayRoles(userRoles, rolesData) {
