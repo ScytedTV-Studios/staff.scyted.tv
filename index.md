@@ -18,24 +18,24 @@ layout: page
             border-radius: 8px;
             box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
         }
-        .box-user-info {
+        .user-info {
             display: flex;
             align-items: center;
             margin-bottom: 30px;
         }
-        .box-user-info img {
+        .user-info img {
             width: 100px;
             height: 100px;
             border-radius: 50%;
             border: 2px solid #ddd;
             margin-right: 20px;
         }
-        .box-user-info h1 {
+        .user-info h1 {
             margin: 0;
             font-size: 24px;
             color: #444;
         }
-        .box-user-info p {
+        .user-info p {
             color: #666;
         }
         .roles-section {
@@ -73,6 +73,12 @@ layout: page
             height: 24px;
             border-radius: 50%;
         }
+        #logout {
+    color: red;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 16px;
+}
         /* CSS for the button section */
 #buttons-wrapper {
     margin-top: 20px;
@@ -96,11 +102,11 @@ layout: page
     color: #FFFFFF;
 }
         @media (max-width: 768px) {
-            .box-user-info {
+            .user-info {
                 flex-direction: column;
                 align-items: flex-start;
             }
-            .box-user-info img {
+            .user-info img {
                 width: 80px;
                 height: 80px;
                 margin-right: 0;
@@ -117,11 +123,12 @@ layout: page
     </style>
 <body>
     <div class="dashboard-container">
-        <div class="box-user-info">
-            <img id="box-user-avatar" src="" alt="User Avatar">
+        <div class="user-info">
+            <img id="user-avatar" src="" alt="User Avatar">
             <div>
-                <h1 id="box-user-name"></h1>
-                <p id="box-user-id"></p>
+                <h1 id="user-name"></h1>
+                <p id="user-id"></p>
+                <p id="logout" onclick="logout()">Logout</p>
             </div>
         </div>
         <div class="roles-section">
