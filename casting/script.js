@@ -75,7 +75,8 @@ function filterResources(resources, query) {
 }
 
 async function init() {
-    const resources = await getResources();
+    let resources = await getResources();
+    resources.sort((a, b) => a.title.localeCompare(b.title)); // Sort resources by title
     displayResources(resources);
 
     const searchBar = document.getElementById('search-bar');
