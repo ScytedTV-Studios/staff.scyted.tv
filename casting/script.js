@@ -17,7 +17,7 @@ async function getResources() {
     const accessToken = document.cookie.split('; ').find(row => row.startsWith('accessToken')).split('=')[1];
     const userId = await getUserID(accessToken);
 
-    const userInfo = await fetchJSON('https://api.scyted.tv/website/staff-portal/user-info.json');
+    const userInfo = await fetchJSON(addCacheBuster('https://api.scyted.tv/website/staff-portal/user-info.json'));
     const roleAccess = await fetchJSON('role-access.json');
     const resources = await fetchJSON('resources.json');
 
@@ -33,6 +33,20 @@ async function getResources() {
 
     return accessibleResources;
 }
+
+function addCacheBuster(url) {
+    const cacheBuster = `cb=${new Date().getTime()}`;
+    return url.includes('?') ? `${url}&${cacheBuster}` : `${url}?${cacheBuster}`;
+}
+
+async function fetchJSON(url) {
+    const response = await fetch(url);
+    if (!response.ok) {
+        throw new Error(`Failed to fetch ${url}: ${response.statusText}`);
+    }
+    return response.json();
+}
+
 
 function displayResources(resources) {
     const resourceList = document.getElementById('resource-list');
