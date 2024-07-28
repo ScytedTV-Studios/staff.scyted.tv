@@ -17,7 +17,7 @@ layout: page
             max-width: 800px;
             width: 100%;
             padding: 20px;
-            background-color: #fff;
+            background-color: #E5E5E5;
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             box-sizing: border-box;
@@ -45,7 +45,7 @@ layout: page
             border: 1px solid #ddd;
             padding: 10px;
             border-radius: 8px;
-            background-color: #f9f9f9;
+            background-color: #fff;
         }
         .resource img {
             width: 150px;

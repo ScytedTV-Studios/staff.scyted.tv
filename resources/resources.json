@@ -1,7 +1,7 @@
 {
   "audacity": {
     "imageURL": "https://cdn.scyted.tv/website-assets/resource-portal/logos/audacity.jpg",
-    "redirectURL": "https://www.scyted.tv/resources/audacity/",
+    "redirectURL": "./audacity",
     "title": "Clean Audio in Audacity",
     "description": "These are some good settings to help clean up microphone audio in Audacity.",
     "resourceID": "audacity"
