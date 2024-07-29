@@ -1,25 +1,4 @@
 {
-  "stvn-smm": {
-    "imageURL": "https://cdn.scyted.tv/website-assets/show-square-logo/scytedtv-news.jpg",
-    "redirectURL": "https://cstng.cc/projects/scytedtv-news",
-    "title": "Social Media Manager",
-    "description": "We're looking for someone who will keep our social media for ScytedTV News updated for new shorts and video releases.",
-    "resourceID": "stvn-smm"
-  },
-  "stvn-sw": {
-    "imageURL": "https://cdn.scyted.tv/website-assets/show-square-logo/scytedtv-news.jpg",
-    "redirectURL": "https://cstng.cc/projects/scytedtv-news",
-    "title": "Shorts Writer",
-    "description": "We need someone to write the stories for our shorts, as well as adapt our longer-form stories into shorts.",
-    "resourceID": "stvn-sw"
-  },
-  "stvn-naa": {
-    "imageURL": "https://cdn.scyted.tv/website-assets/show-square-logo/scytedtv-news.jpg",
-    "redirectURL": "https://cstng.cc/projects/scytedtv-news",
-    "title": "News Article Adaptation",
-    "description": "We need someone who can adapt our stories into news articles on our website.",
-    "resourceID": "stvn-naa"
-  },
   "iai-w": {
     "imageURL": "https://cdn.scyted.tv/website-assets/show-square-logo/ink-and-ideals.jpg",
     "redirectURL": "https://cstng.cc/projects/ink-ideals-video-essays",
@@ -36,7 +15,7 @@
   },
   "tu-va": {
     "imageURL": "https://cdn.scyted.tv/website-assets/show-square-logo/the-universe.jpg",
-    "redirectURL": "https://cstng.cc/projects/ink-ideals-video-essays",
+    "redirectURL": "https://cstng.cc/projects/the-universe-the-beginning-and-the-end",
     "title": "Voice Actor",
     "description": "The Universe is an Audio Drama series of complicated storytelling adventures that houses complex stories that take place amongst multiple universes and character sets.",
     "resourceID": "tu-va"
