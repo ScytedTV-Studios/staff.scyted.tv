@@ -18,8 +18,8 @@ async function getResources() {
     const userId = await getUserID(accessToken);
 
     const userInfo = await fetchJSON(addCacheBuster('https://api.scyted.tv/website/staff-portal/user-info.json'));
-    const roleAccess = await fetchJSON('role-access.json');
-    const resources = await fetchJSON('resources.json');
+    const roleAccess = await fetchJSON(addCacheBuster('role-access.json'));
+    const resources = await fetchJSON(addCacheBuster('resources.json'));
 
     const userRoles = userInfo[userId] || [];
     const accessibleResources = [];
