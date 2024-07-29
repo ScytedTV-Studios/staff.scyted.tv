@@ -3,29 +3,21 @@ title: Resource Directory
 layout: page
 type: resources
 ---
-<style>
-    hr.has-background-black {
-        display: none;
-    }
 
-    h1.title {
-        display: none;
-    }
-</style>
-<!-- <link rel="stylesheet" href="https://api.scyted.tv/website/staff-portal/scytedtv-resources.css"> -->
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://api.scyted.tv/website/staff-portal/scytedtv-resources.css">
 <link rel="stylesheet" href="https://api.scyted.tv/website/staff-portal/mobile-lock.css">
+<script src="https://api.scyted.tv/wave-development/dashboard/page-loading-script.js"></script>
+<script src="https://api.scyted.tv/website/staff-portal/resources-scripts.js"></script>
+
 <body>
 
-<!-- <div class="mobile-error">
+<div class="mobile-error">
   <div id="error-message" style="color: red;">
-    ScytedTV Resources isn't currently available to mobile users at this time.
+    ScytedTV Resources isn't available to mobile users.
   </div>
-</div> -->
+</div>
 
-<!-- <div class="banner">
-    <img src="https://cdn.scyted.tv/website-assets/resource-portal/banner.jpg" alt="Banner Image" class="banner-image">
-  </div> -->
+<!-- CODE STARTS HERE -->
 
 <div class="resource-container">
   
@@ -45,16 +37,6 @@ type: resources
   
 <div class="resource-box">
 
-  <style>
-    .user-info-box {
-        flex: 1;
-        padding: 20px;
-        background-color: #fff;
-        border-radius: 8px;
-        margin-bottom: 20px;
-        text-align: left;
-    }
-    </style>
 <div class="container">
 <div class="user-info-box" id="userInfoBox">
 
@@ -124,24 +106,6 @@ The last thing recommended by u/kyleblane was to use chains to automate this. Mo
 
 <br><br>
 
-<style>
-
-.video-container {
-  position: relative;
-  padding-bottom: 56.25%; /* 16:9 */
-  height: 0;
-}
-.video-container iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border-radius: 15px;
-}
-
-</style>
-
 <div class="video-container">
 
 <iframe width="100%" height="0" src="https://www.youtube.com/embed/KLDBrAw8zq0" title="Audacity Tip - How to Batch Processing Effects (Formerly Chains - Now Macros)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -153,10 +117,6 @@ The last thing recommended by u/kyleblane was to use chains to automate this. Mo
 </div>
 </div>
 
-<script src="https://api.scyted.tv/wave-development/dashboard/page-loading-script.js"></script>
-<script src="index-script.js"></script>
-<script src="insert-scripts.js"></script>
-<script src="https://api.scyted.tv/wave-development/dashboard/mobile-redirect.js"></script>
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-LF3ZTHGQHE"></script>
+<!-- CODE ENDS HERE -->
 
 </body>
